@@ -1,6 +1,16 @@
 {
     "recommendations": [
         "mhutchie.git-graph",
-        "foxundermoon.shell-format"
+        "foxundermoon.shell-format",
+        "ms-azuretools.vscode-docker",
+        "ms-vscode-remote.remote-containers",
+        "ms-vscode-remote.remote-ssh",
+        "github.vscode-github-actions",
+        "github.copilot",
+        "eamodio.gitlens",
+        "johnpapa.vscode-peacock",
+        "esbenp.prettier-vscode",
+        "wayou.vscode-todo-highlight",
+        "vscode-icons-team.vscode-icons"
     ]
 }
