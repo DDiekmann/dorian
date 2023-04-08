@@ -11,6 +11,7 @@
         "johnpapa.vscode-peacock",
         "esbenp.prettier-vscode",
         "wayou.vscode-todo-highlight",
-        "vscode-icons-team.vscode-icons"
+        "vscode-icons-team.vscode-icons",
+        "ms-python.flake8"
     ]
 }

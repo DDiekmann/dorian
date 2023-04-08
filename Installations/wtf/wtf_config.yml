@@ -5,8 +5,8 @@ wtf:
       focused: orange
       normal: gray
   grid:
-    columns: [32, 32, 32, 32, 90]
-    rows: [7, 10, 10, 4, 4, 90]
+    columns: [32, 32, 20, 32]
+    rows: [8, 10, 10, 4, 4, 90]
   refreshInterval: 1
   mods:
     europe_time:
@@ -54,3 +54,14 @@ wtf:
       showCPU: true
       showMem: true
       showSwp: false
+    ipinfo:
+      colors:
+        name: green
+        value: white
+      enabled: true
+      position:
+        top: 0
+        left: 1
+        height: 1
+        width: 2
+      refreshInterval: 150s
