@@ -1,6 +1,6 @@
-# Workysetup
+# Dorian
 
-Files that help me setup my Linux work-stations. (I use Ubunut Variants)
+Dorian is a collection of scripts and configuration files to setup a new machine. It is mainly used for my personal setup, but feel free to use it for your own setup. I use it on Ubuntu 22.04, but it should work on other Linux distributions as well. I don't know if it works on Windows or MacOS.
 
 ### Installation files:
 
