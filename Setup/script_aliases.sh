@@ -16,6 +16,9 @@ else
     echo "genpoetryrust() {
         bash $SCRIPT_DIR/../Scripts/poetry_rust_setup.sh \$1;
     }" >>~/.bashrc
+    echo "genrust() {
+        bash $SCRIPT_DIR/../Scripts/rust_setup.sh \$1;
+    }" >>~/.bashrc
 fi
 
 source ~/.bashrc
