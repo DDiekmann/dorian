@@ -13,8 +13,7 @@ touch $1/app.py
 
 # Add git
 git init
-cp $SCRIPT_DIR/python.txt .gitignore
-cat $SCRIPT_DIR/rust.txt >>.gitignore
+cp $SCRIPT_DIR/gitignore/python.txt .gitignore
 git branch -M main
 git add .
 git commit -m "Initial commit"

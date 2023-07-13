@@ -8,7 +8,7 @@ cd $1
 
 # Add git
 git init
-cp $SCRIPT_DIR/rust.txt .gitignore
+cp $SCRIPT_DIR/gitignore/rust.txt .gitignore
 git branch -M main
 git add .
 git commit -m "Initial commit"

@@ -41,5 +41,6 @@ default = [\"extension-module\"]" >>Cargo.toml
 
 poetry run maturin develop
 
+cat $SCRIPT_DIR/gitignore/rust.txt >>.gitignore
 git add -A
 git commit -m "Add rust base"
