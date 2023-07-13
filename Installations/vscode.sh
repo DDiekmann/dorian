@@ -7,3 +7,11 @@ rm -f packages.microsoft.gpg
 sudo apt install -y apt-transport-https
 sudo apt update
 sudo apt install -y code
+
+DIR = "~/Dev"
+if [ -d "$DIR" ]; then
+    echo "Dev directory already exists"
+else
+    cd ~
+    mkdir Dev
+fi
