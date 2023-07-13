@@ -8,10 +8,12 @@ sudo apt install -y apt-transport-https
 sudo apt update
 sudo apt install -y code
 
-DIR = "~/Dev"
+DIR = "$HOME/Dev"
 if [ -d "$DIR" ]; then
     echo "Dev directory already exists"
 else
-    cd ~
+    cd $HOME
     mkdir Dev
+    cd Dev
+    mkdir Archive
 fi
