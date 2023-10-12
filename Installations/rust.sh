@@ -27,3 +27,6 @@ cargo install cargo-expand
 # Install cargo-tree
 echo "Installing cargo-tree..."
 cargo install cargo-tree
+
+sudo apt install -y pkg-config libusb-1.0-0-dev libftdi1-dev
+sudo apt install -y libudev-dev libasound2-dev
