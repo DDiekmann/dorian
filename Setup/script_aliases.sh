@@ -4,6 +4,8 @@ SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
 
 chmod +x $SCRIPT_DIR/../Scripts/poetry_setup.sh
 chmod +x $SCRIPT_DIR/../Scripts/poetry_rust_setup.sh
+chmod +x $SCRIPT_DIR/../Scripts/rust_setup.sh
+chmod +x $SCRIPT_DIR/../Scripts/pythonweb.sh
 
 if grep -q "# scripts" ~/.bashrc; then
     echo "alias for ls already exists"
