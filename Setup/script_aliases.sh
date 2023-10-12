@@ -19,6 +19,9 @@ else
     echo "genrust() {
         bash $SCRIPT_DIR/../Scripts/rust_setup.sh \$1;
     }" >>~/.bashrc
+    echo "genwebpy() {
+        bash $SCRIPT_DIR/../Scripts/pythonweb.sh \$1;
+    }" >>~/.bashrc
 fi
 
 source ~/.bashrc

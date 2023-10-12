@@ -1,0 +1,23 @@
+from nicegui import app, ui
+
+import logging
+
+logging.basicConfig(
+    level=logging.DEBUG, format="%(asctime)s %(levelname)s %(name)s %(message)s"
+)
+
+@ui.page("/", dark=True)
+def home_page():
+    HomePage()
+
+class HomePage:
+    def __init__(self):
+        self.page = ui.page("/", dark=True)
+        self.page.add(ui.label("Hello World!"))
+        self.page.add(ui.button("Click me", on_click=self.on_click))
+
+    def on_click(self):
+        self.page.add(ui.label("You clicked me!"))
+
+if __name__ == "__main__":
+    app.run(title="Home Page", dark=None, favicon="📚")
