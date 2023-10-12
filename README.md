@@ -8,7 +8,7 @@ cd ~
 mkdir Dev
 cd Dev
 git clone https://github.com/DDiekmann/dorian.git
-echo "alias dorian='bash ~/Dev/dorian/dorian.sh'" >> ~/.bashrc
+echo "alias dorian='sudo bash ~/Dev/dorian/dorian.sh'" >> ~/.bashrc
 ```
 ### Run Dorian
 
