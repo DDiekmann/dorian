@@ -7,6 +7,8 @@ $SCRIPT_DIR/poetry_setup.sh $1
 
 cd $1
 
+poetry add maturin
+
 echo "import rust
 
 text = rust.sum_as_string(1, 2)  # '3'
