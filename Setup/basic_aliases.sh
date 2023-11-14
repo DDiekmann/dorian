@@ -12,7 +12,7 @@ else
     echo '' >>~/.bash_aliases
     echo '# basic' >>~/.bash_aliases
     echo '## Update ##' >>~/.bash_aliases
-    echo 'alias update="sudo apt update && sudo apt dist-update && sudo apt full-upgrade -y && sudo apt autoremove -y"' >>~/.bash_aliases
+    echo 'alias update="sudo apt update && sudo apt dist-upgrade && sudo apt full-upgrade -y && sudo apt autoremove -y"' >>~/.bash_aliases
 fi
 
 #ls aliases
