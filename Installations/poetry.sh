@@ -1,11 +1,11 @@
 #! /usr/bin/bash
 
-# Install poetry
-curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python3 -
+# Install pipx
+sudo apt install pipx
 
-# Add poetry to path
-echo 'export PATH="$HOME/.poetry/bin:$PATH"' >>~/.bashrc
-source ~/.bashrc
+# Install poetry
+pipx install poetry
+pipx ensurepath
 
 # Facilitates working with Virtual Environment
 # from https://medium.com/hepsiburada-data-science/poetry-the-ultimate-tool-for-python-dependency-management-4bf8f68a55cf
